@@ -20,7 +20,7 @@ margin: auto; padding: 15px; margin-top: 10px;">
                     <input type="date" name="inicio"/>
                 </div>
                 <div class="pure-control-group">
-                    <label for="aligned-foo">Data de entrega</label>
+                    <label for="aligned-foo">Data de entrega prevista</label>
                     <input type="date" name="entrega"/>
                 </div>
                 <div class="pure-control-group">

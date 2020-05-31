@@ -2,19 +2,14 @@
 namespace src\controllers;
 
 use \core\Controller;
+use \src\models\Encomenda;
 
 class HomeController extends Controller {
 
     public function index() {
-        $this->render('home', ['nome' => 'Bonieky']);
+        $encomendas = Encomenda::select(['encomendador', 'valor', 'entrega', 'id'])->execute();
+        $this->render('home', [
+            'encomendas' => $encomendas
+        ]);
     }
-
-    public function sobre() {
-        $this->render('sobre');
-    }
-
-    public function sobreP($args) {
-        print_r($args);
-    }
-
 }

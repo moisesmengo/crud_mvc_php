@@ -1,6 +1,8 @@
 <div class="pure-menu pure-menu-horizontal" 
-    style="width: 500px; height: 40px; margin: auto; 
-    border: 1px solid #ccc; display: flex; justify-content: center;" >
+    style="width: 550px; height: 40px; margin: auto; 
+    border: 1px solid #ccc; display: flex; justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    " >
     <ul class="pure-menu-list">
         <li class="pure-menu-item pure-menu-selected">
             <a href="<?=$base;?>" class="pure-menu-link">Home</a>

@@ -36,4 +36,12 @@ class EncomendasController extends Controller {
        }
    }
 
+   public function edit($id){
+
+   }
+
+   public function del($id){
+       
+    }
+
 }

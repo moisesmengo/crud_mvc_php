@@ -30,7 +30,7 @@ margin: auto; margin-top: 10px;">
                      <a href="<?=$base;?>/encomenda/<?=$encomenda['id']?>/editar" style="text-decoration: none;">
                         <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698873-icon-136-document-edit-512.png" width="20" style="margin-right: 5px;">
                      </a>
-                     <a href="<?=$base;?>/encomenda/<?=$encomenda['id']?>/excluir" style="text-decoration: none;">
+                     <a href="<?=$base;?>/encomenda/<?=$encomenda['id']?>/excluir" style="text-decoration: none;" onclick="return confirm('Deseja realmente excluir a encomenda?')">
                         <img src="https://lh3.googleusercontent.com/proxy/ZS_AMGkkZj06yY6CGG5p42pV705rTXzz4_7Zdz5xVN9JBvYZAXssKXIUEy-yFFzAsbq6n0OYjC25PB2b8ohhuL18smEGAJAj2B9dvMP3cjJSOY_2xw" width="20">
                      </a>
                   </td>

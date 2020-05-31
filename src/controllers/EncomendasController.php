@@ -67,7 +67,8 @@ class EncomendasController extends Controller {
    }
 
    public function del($id){
-       
+       Encomenda::delete()->where('id', $id['id'])->execute();
+       $this->redirect('/');
     }
 
 }
